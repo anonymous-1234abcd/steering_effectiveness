@@ -1,0 +1,14 @@
+Training chat template:
+
+[
+{"role": "system", "content": "You are a helpful AI assistant."},
+{"role": "user", "content": "Tell me something."},
+{"role": "assistant", "content": <training sentence>}
+]
+
+Inference chat template:
+
+[
+{"role": "system", "content": "You are a helpful AI assistant." or <concept-aware/toxic-mitigation prompt>},
+{"role": "user", "content":<generic/tet prompt>}
+]
